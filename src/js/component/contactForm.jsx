@@ -35,6 +35,7 @@ export const ContactForm = () => {
     console.log(formData);
     //llamamos la funcion en flux, actions, para crear contactos
     actions.createContact(formData);
+    navigate("/");
   };
 
   return (
